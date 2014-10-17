@@ -17,6 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    int x,y,sum;
+    for(x=1;x<=9;x++){
+    for(y=1;y<=9;y++){ sum = x*y;
+    NSLog(@"%d X %d = %d",x,y,sum);}}
 }
 
 - (void)didReceiveMemoryWarning {
